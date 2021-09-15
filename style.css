@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, sans-serif, Helvetica;
+}
+
+.svg-icons {
+  fill: grey;
+  height: 22px;
+  width: 22px;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 10px;
+}
+
+.nav__item {
+  margin: 0 10px;
+}
+
+.nav__profile-pic {
+  border-radius: 20px;
+  width: 35px;
+}
+
+.nav__text {
+  color: inherit;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.searcher {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searcher__img-container {
+  margin: 100px 0 25px 0;
+}
+
+.searcher__img-google {
+  height: 92px;
+  width: 272px;
+}
+
+.searcher__bar-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 582px;
+  height: 44px;
+  padding: 0 15px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e2e2;
+}
+
+.searcher__search-bar {
+  width: 500px;
+  height: 30px;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+}
+
+.searcher__bar-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.searcher__buttons-container button {
+  padding: 8px 16px;
+  margin: 11px 4px;
+  font-size: 1.4rem;
+  background-color: #f8f9fa;
+  border: #f8f9fa;
+  color: #3c4043;
+}
+
+.searcher__buttons-container button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer__country-container {
+  height: 50px;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+
+  align-items: center;
+  padding-left: 35px;
+}
+
+.footer__country-container p {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.5rem;
+}
+
+.footer__extras-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__extras-container p {
+  font-size: 1.4rem;
+  color: #70757a;
+}
+
+.footer__about,
+.footer__privacy-conditions-preferences {
+  display: flex;
+}
+
+.footer__about p,
+.footer__privacy-conditions-preferences p {
+  padding: 15px 20px;
+}
+
+.footer__about {
+  margin-left: 20px;
+}
+
+.footer__privacy-conditions-preferences {
+  margin-right: 20px;
+}
